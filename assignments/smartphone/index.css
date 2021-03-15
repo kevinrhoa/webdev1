@@ -1,0 +1,52 @@
+.container {
+    margin-left: 355px;
+    margin-right: 355px;    
+    margin-top: 20px;
+}
+
+.row {
+    background: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box {
+    background: black;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    display: flex;
+    margin: 40px 20px 40px 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, darkgray, coral);
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rowbottom {
+    background: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.boxbottom {
+    background: black;
+    width: 100px;
+    height: 100px;
+    margin: 40px 20px 40px 20px;
+    display: flex;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, gray, coral);
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boxbottom :hover {
+    text-decoration: underline;
+}
