@@ -4,19 +4,23 @@ body {
     color: gray;
 }
 
-.nav {
-    margin: auto;
-
-}
-.nav a:hover {
+.headnav a:hover {
     border-bottom: .5px solid black;
+}
+
+footer {
+    margin-top: 50%;
+}
+
+.footerlist li{
+    display: inline-block;
+    padding: 0% 10% 0% 10%;
 }
 
 .list {
     list-style: none;
     line-height: 200%;
     font-size: 120%;
-
 }
 
 .headshot {
@@ -24,7 +28,13 @@ body {
     top: 100px;
     left: 250px;
     width: 30%;
+}
 
+.logo {
+    width: 15%;
+    position: absolute;
+    top: 10%;
+    right: 23.5%;
 }
 
 p {
@@ -85,7 +95,7 @@ p {
         }
 
 
-        p {
+        
          
         
             
