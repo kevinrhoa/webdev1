@@ -85,3 +85,13 @@ figcaption {
     clear: both;
     display: table;
 }
+
+
+.homehover :hover {
+    opacity: .5;
+    transition: 1s;
+
+}
+
+
+  
