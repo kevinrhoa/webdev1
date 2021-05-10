@@ -93,5 +93,8 @@ figcaption {
 
 }
 
-
-  
+.album {
+    border: .5px solid black;
+    max-width: 25%;
+    width: 20%;
+}
