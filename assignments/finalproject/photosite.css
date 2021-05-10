@@ -92,3 +92,32 @@ figcaption {
     clear: both;
     display: table;
 }
+
+
+.grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 2rem;
+    margin: 25px;;
+}
+
+.grid-item {
+    width: 100%;
+}
+
+.slidein {
+    animation: slide-right 1s;
+    animation-name: slide;
+}
+
+@keyframes slide {
+    from {
+        margin-left: -100%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}
