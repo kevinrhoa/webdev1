@@ -14,7 +14,8 @@ body {
     background-size: cover;
     height: 1200px;
     padding-bottom: 30px;
-    background-color: white;
+    padding: 50px;
+    text-align: center;
 }
 
 img {
@@ -50,6 +51,11 @@ figcaption {
 
 .logo {
     max-width: 25%;
+}
+
+.mine {
+    max-width: 50%;
+    padding: 60px;
 }
 
 
